@@ -490,7 +490,7 @@
   border: 1px solid #007BFF;
   width: 50%;
   max-width: 25rem;
-  padding: 3rem 1.5rem;
+  padding: 4rem 1.5rem;
   background-color: white;
   border-radius: .4rem 0rem 0rem .4rem;
   
@@ -691,6 +691,41 @@
   font-size: 5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
+ .heading-contact-us p{
+  text-align: center;
+  font-size: 1.1rem; 
+  width: 85%;
+ }
+.login-info{
+  flex-direction: column;
+  gap: 2rem 0rem;
+}
+
+ .left-info-div{
+  border: 1px solid #007BFF;
+  width: 100%;
+  max-width: 40rem;
+  border-radius: .4rem;
+  padding: 2rem 1.5rem;
+  
+ }
+ .right-msg-div{
+  padding: 3rem 1.5rem;
+  width: 100%;
+  max-width: 40rem;
+  display:flex; flex-direction: column;
+  align-items: center;
+  border-radius: .4rem;
+  background-color: #007BFF;
+ }
+ .right-msg-div input{
+  border: none;
+  border-radius: .4rem;
+  display: inline-block;
+  width: 100%;
+  padding: .5rem;
+  margin: .3rem 0rem;
+ }
   }
 
 
